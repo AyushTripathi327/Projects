@@ -182,6 +182,17 @@ public:
                 cout << "Owner: " << vehicles[i].owner << endl;
                 cout << "Type : " << vehicles[i].type  << endl;
                 cout << "Fee  : Rs. " << fee            << endl;
+                // ===== RECEIPT =====
+              cout << "\n=================================\n";
+                cout << "         PARKING RECEIPT\n";
+               cout << "=================================\n";
+             cout << "Plate Number : " << vehicles[i].plate << endl;
+            cout << "Owner Name   : " << vehicles[i].owner << endl;
+            cout << "Vehicle Type : " << vehicles[i].type  << endl;
+            cout << "Slot Number  : " << vehicles[i].slot  << endl;
+            cout << "Hours Parked : " << hours             << endl;
+             cout << "Amount Paid  : Rs. " << fee           << endl;
+                     cout << "=================================\n";
 
                 
                 vehicles.erase(vehicles.begin() + i);
